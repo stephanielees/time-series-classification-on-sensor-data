@@ -19,5 +19,6 @@ I tried various approaches, both in the feature extraction and in the modelling 
   * Logistic regression
 
 Three notebooks are included in this repository.
-
-The video for models with low AUC is [here](https://youtu.be/LCIpAKJKrQ8). In that video I also share my opinion about what we can learn from this project.
+1. tps_apr2022_rocket focus on ROCKET as a feature extractor. The video is [here](https://youtu.be/0c0YNWo9Xyg)
+2. shapelet_tslearn focus on Shapelets to transform the dataset. The video is [here](https://youtu.be/u69v5gm_zBk). Note that I didn't set the seed for learning shapelets, so the shapelets visualizations in this notebook may look a little bit different than what you see in the video. But that doesn't affect the model performance.
+3. The video for models with low AUC is [here](https://youtu.be/LCIpAKJKrQ8). In that video I also share my opinion about what we can learn from this project.
